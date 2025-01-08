@@ -1,5 +1,10 @@
 {
   "mappings": [
-    "/:/"
+    "/content/adobe-eds-forms/:/",
+    "/content/adobe-eds-forms/configuration:/.helix/config.json",
+    "/content/adobe-eds-forms/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/adobe-eds-forms/"
   ]
 }
